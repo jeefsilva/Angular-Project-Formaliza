@@ -1,0 +1,154 @@
+@media (max-width: 1700px) {
+  .professionals-card-text {
+    font-size: 90% !important;
+    padding-right: 30% !important;
+  }
+
+}
+
+@media (max-width: 1450px) {
+  .professionals-card-text {
+    font-size: 80% !important;
+  }
+
+}
+
+@media (max-width: 1300px) {
+  .professionals-card-text {
+    font-size: 80% !important;
+    padding-right: 20% !important;
+  }
+
+}
+
+@media (max-width: 1250px) {
+  .primary-margins {
+    margin: 0 54px 0 54px !important;
+  }
+
+  .secondary-margins {
+    margin: 0 112px 0 112px !important;
+  }
+  .text-section {
+    padding: 108px 54px 31px 54px !important;
+  }
+
+  .secondary-text-section {
+    padding: 108px 112px 31px 112px !important;
+  }
+
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h3 {
+    font-size: 28px !important;
+  }
+
+  h4 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 12px !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+  }
+
+  h4 {
+    font-size: 16px !important;
+  }
+
+  .big-logo {
+    width: 60% !important;
+  }
+
+  .mat-tab-link {
+    font-size: 120% !important;
+  }
+
+  .card-title {
+    font-size: 15px !important;
+  }
+
+  .card-title-space {
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+  }
+
+  .products-detail-card {
+    font-size: 14px !important ;
+  }
+
+  .professionals-icon {
+    width: 180px !important;
+    height: 180px !important;
+  }
+
+  .professionals-card-title {
+    padding-top: 140px !important;
+  }
+
+  .compromise-icon {
+    padding-bottom: 30px !important;
+  }
+
+  .compromise-card-title {
+    padding-bottom: 30px !important;
+  }
+
+}
+
+@media (max-width: 840px) {
+
+  .products {
+    flex-wrap: wrap !important;
+  }
+
+  .process {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (max-width: 599px) {
+
+  .background {
+    height: 280px !important;
+  }
+
+  .big-logo {
+    padding: 74px 0 0 0 !important;
+    width: 50% !important;
+  }
+
+  .primary-margins {
+    margin: 40px !important;
+  }
+
+  .secondary-margins {
+    margin: 40px !important;
+  }
+
+  .text-section {
+    padding: 40px !important;
+  }
+
+  .secondary-text-section {
+    padding: 40px !important;
+  }
+
+  .contact-text {
+    padding-left: 0 !important;
+  }
+
+}

@@ -1,0 +1,298 @@
+@import "media";
+
+.logo-title {
+  font-family: Myriad Pro;
+  padding-left: 40px;
+}
+
+.logo-title :link {
+  text-decoration: none;
+}
+
+.first-logo-part {
+  color: #16a67b;
+}
+
+.second-logo-part {
+  color: #5c85c3;
+}
+
+.mat-tab-link {
+  color: #38599c;
+  min-width: 0;
+  height: 64px;
+  font-size: 150%;
+  font-weight: 400;
+  opacity: 1;
+  padding: 0 24px;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 5;
+}
+
+.background {
+  background-image: url("../assets/images/header-lossless.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.big-logo {
+  padding: 122px 0 252px 0;
+  width: 50%;
+}
+
+.primary-margins {
+  margin: 0 108px 0 108px;
+}
+
+.secondary-margins {
+  margin: 0 224px 0 224px;
+}
+
+.text-section {
+  color: #424242;
+  padding: 108px 108px 31px 108px;
+}
+
+.text-section-compromise {
+  color: #424242;
+}
+
+.secondary-text-section {
+  color: #424242;
+  padding: 108px 224px 31px 224px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  font-size: 34px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+h4 {
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mat-card {
+  padding: 0;
+}
+
+.process mat-card {
+  height: 488px;
+}
+
+.professionals mat-card {
+  height: 714px;
+}
+
+.compromise mat-card{
+  height: 380px;
+}
+
+.contact mat-card{
+  height: 748px;
+}
+
+.compromise {
+  padding-top: 77px;
+  flex-wrap: wrap;
+}
+
+.compromise-card {
+  height: 380px;
+}
+
+.margin-card-compromise {
+  margin-top: 10px;
+}
+
+.products-card {
+  border-top: 3px solid #38599c;
+}
+
+.products-icon {
+  width: 20%;
+  height: 100%;
+  margin-right: 26px;
+}
+
+.process-icon {
+  width: 92px;
+  padding: 30px 0 45px 0;
+}
+
+.professionals-icon {
+  width: 220px;
+  height: 220px;
+  padding-top: 30px;
+}
+
+.compromise-icon {
+  width: 75px;
+  padding: 30px 0 56px 0;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.process-card-title {
+  font-size: 20px;
+  padding-bottom: 46px;
+}
+
+.process-card-subtitle {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  line-height: 25px;
+  padding-right: 16px;
+}
+
+.compromise-card-title {
+  font-size: 20px;
+  padding-bottom: 46px;
+}
+
+.compromise-card-subtitle {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  line-height: 25px;
+  padding-right: 16px;
+}
+
+.products-detail-card span {
+  color: rgba(4, 4, 4, 0.54);
+  border-top: 1px solid #e2e2e2;
+  padding: 14px;
+  height: 65px;
+  max-height: 65px;
+}
+
+.card-title-space {
+  height: 106px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.professionals-card-title {
+  font-size: 20px;
+  padding: 200px 0 0 0 ;
+}
+
+.professionals-card-subtitle {
+  font-size: 12px;
+}
+
+.professionals-card-text {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 100%;
+  padding-right: 216px;
+  padding-top: 16px;
+  line-height: 24px;
+}
+
+.contact-field {
+  padding: 30px;
+}
+
+.contact-text {
+  padding-left: 57px;
+}
+
+footer {
+  margin-top: 23px;
+  background-color: #38599c;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.example-is-mobile .example-toolbar {
+  position: fixed;
+  /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+  z-index: 2;
+}
+
+h1.example-app-name {
+  margin-left: 8px;
+}
+
+.example-sidenav-container {
+  /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+     causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+  flex: 1;
+}
+
+.example-is-mobile .example-sidenav-container {
+  /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+     `<body>` to be our scrolling element for mobile layouts. */
+  flex: 1 0 auto;
+}
+
+.example-toolbar {
+  position: fixed !important;
+  z-index: 5;
+}
+
+.mat-toolbar {
+  position: fixed;
+  z-index: 5;
+}
+
+.logo-title-mobile {
+  font-family: Myriad Pro;
+  padding-top: 3px;
+  padding: 30px;
+}
+
+.logo-title-mobile :link {
+  text-decoration: none;
+}
+
+.mobile-toolbar {
+  background: white;
+}
+
+.sidenav {
+  font-size: 25px;
+}
+
+.sidenav-item {
+  font-size: 20px;
+  padding-top: 8px;
+}
+
+.sidenav-icon {
+  width: 30px;
+  padding-right: 20px;
+}
